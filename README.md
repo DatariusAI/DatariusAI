@@ -17,7 +17,7 @@
 🔭 Working on: Agentic AI Architecture & LLM Systems  
 🌱 Learning: LangGraph · Deep Research Agents · Azure AI Engineer  
 🎓 MSc Data Science · Deakin University  
-🏆 CQF · EPAT · Microsoft AI102 · Microsoft DP100 · AWS MLA · AWS MLDS · IBM Data Science Certificate  
+🏆 CQF · EPAT · Microsoft AI102 · Microsoft DP100 · AWS MLA · AWS MLDS · IBM AI & Data Science Credentials  
 📍 Kuwait  
 
 ---
