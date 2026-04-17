@@ -16,7 +16,7 @@
 
 🔭 Working on: Agentic AI Architecture & LLM Systems  
 🌱 Learning: LangGraph · Deep Research Agents · Azure AI Engineer  
-🎓 MSc Data Science
+🎓 MSc Data Science  
 🏆 CQF · EPAT · Microsoft AI102 · Microsoft DP100 · AWS MLA · AWS MLDS · IBM AI & Data Science Credentials  
 📍 Kuwait  
 
