@@ -18,7 +18,7 @@
 🌱 Learning: LangGraph · Deep Research Agents · Azure AI Engineer  
 🎓 MSc Data Science  
 🎓 MS  Applied Artificial Intelligence  
-🏆 CQF · EPAT · Microsoft AI102 · Microsoft DP100 · AWS MLA · AWS MLDS · IBM AI & Data Science Credentials  
+🏆 Microsoft AI102 · Microsoft DP100 · AWS MLA · AWS MLS · IBM AI & Data Science Credentials  
 📍 Kuwait  
 
 ---
