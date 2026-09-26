@@ -95,12 +95,4 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-alrashed-cqf-epat-cpdsf-cpfe-cpaif-aa69a0298/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DatariusAI)
-```
-
----
-
-**Step 6 — Scroll down, click "Commit changes"**
-
-Set commit message:
-```
-feat: GitHub profile README
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/StxuyBQbhy)
