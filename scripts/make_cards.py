@@ -24,6 +24,7 @@ LANG_COLORS = {
     "Dockerfile": "#384d54", "C++": "#f34b7d", "Java": "#b07219", "SQL": "#e38c00",
 }
 SKIP_LANGS = {"HTML", "CSS", "Shell"}
+CARD_H = 200  # both cards share one size so they line up side by side
 
 
 def api(url, body=None):
@@ -101,7 +102,7 @@ def stats_svg(repos, total, langs):
                  f'<text x="44" y="{y}" class="l">{label}</text>'
                  f'<text x="400" y="{y}" class="v" text-anchor="end">{value}</text></g>')
     body += f'<text x="24" y="{70 + len(rows)*26 + 4}" class="s">Updated {dt.date.today():%d %b %Y}</text>'
-    return card(425, 70 + len(rows) * 26 + 18, "Mohammad's GitHub stats", body)
+    return card(425, CARD_H, "Mohammad's GitHub stats", body)
 
 
 def language_totals(repos):
@@ -131,7 +132,7 @@ def languages_svg(totals):
         items += (f'<g class="row" style="animation-delay:{i*120}ms">'
                   f'<circle cx="{cx}" cy="{cy-5}" r="5" fill="{LANG_COLORS.get(lang, ACCENT)}"/>'
                   f'<text x="{cx+12}" y="{cy}" class="l">{lang} <tspan class="s">{100*size/whole:.1f}%</tspan></text></g>')
-    return card(425, 96 + ((len(top) + 1) // 2) * 26 + 6, "Most used languages", bar + items)
+    return card(425, CARD_H, "Most used languages", bar + items)
 
 
 def main():
