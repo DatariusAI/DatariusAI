@@ -80,8 +80,6 @@ def card(width, height, title, body):
 .l{{font:400 14px 'Segoe UI',Ubuntu,sans-serif;fill:{TEXT}}}
 .v{{font:700 14px 'Segoe UI',Ubuntu,sans-serif;fill:{ACCENT}}}
 .s{{font:400 11px 'Segoe UI',Ubuntu,sans-serif;fill:{MUTED}}}
-.row{{opacity:0;animation:in .5s ease-out forwards}}
-@keyframes in{{to{{opacity:1}}}}
 </style>
 <rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="8" fill="{BG}" stroke="{BORDER}"/>
 <text x="24" y="36" class="t">{title}</text>

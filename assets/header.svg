@@ -13,10 +13,7 @@
   <style>
     .name{font:700 40px 'Segoe UI',Ubuntu,sans-serif;fill:url(#name)}
     .sub{font:500 17px 'Segoe UI',Ubuntu,sans-serif;fill:#c0caf5}
-    .rot{font:600 19px 'Fira Code','Consolas',monospace;fill:#38bdae;opacity:0}
-    .r1{animation:cycle 12s infinite 0s}.r2{animation:cycle 12s infinite 3s}
-    .r3{animation:cycle 12s infinite 6s}.r4{animation:cycle 12s infinite 9s}
-    @keyframes cycle{0%{opacity:0}4%{opacity:1}22%{opacity:1}26%{opacity:0}100%{opacity:0}}
+    .rot{font:600 15px 'Fira Code','Consolas',monospace;fill:#38bdae}
     .dot{fill:#70a5fd;opacity:.35}
   </style>
   <rect width="900" height="200" rx="12" fill="url(#bg)"/>
@@ -30,8 +27,5 @@
   </g>
   <text x="450" y="78" text-anchor="middle" class="name">Mohammad Alrashed</text>
   <text x="450" y="110" text-anchor="middle" class="sub">AI &amp; Digital Transformation Leader in Banking · AI/ML Engineer · DatariusAI</text>
-  <text x="450" y="155" text-anchor="middle" class="rot r1">&gt; LLMs · Agentic AI · MLOps</text>
-  <text x="450" y="155" text-anchor="middle" class="rot r2">&gt; AI governance for regulated industries</text>
-  <text x="450" y="155" text-anchor="middle" class="rot r3">&gt; Cloud AI: Azure · Google Cloud · AWS</text>
-  <text x="450" y="155" text-anchor="middle" class="rot r4">&gt; Teaching AI on YouTube in English &amp; Arabic</text>
+  <text x="450" y="155" text-anchor="middle" class="rot">&gt; LLMs · Agentic AI · MLOps · AI Governance · Cloud AI · Teaching AI in English &amp; Arabic</text>
 </svg>
