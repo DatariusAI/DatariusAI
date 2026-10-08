@@ -89,7 +89,7 @@ def card(width, height, title, body):
 
 def stats_svg(repos, total, langs):
     hubs = sum(1 for r in repos if r["name"].startswith("AI-in-") or r["name"].endswith("-AI-Hub")
-               or r["name"] in ("Mathematics-for-AI", "Cloud-Landing-Zones", "AI-Cybersecurity"))
+               or r["name"] in ("Mathematics-for-AI", "Cloud-Landing-Zones", "AI-Cybersecurity", "AI-Systems-and-Platforms"))
     rows = [("Public repositories", len(repos)), ("Public contributions (last 12 months)", f"{total:,}"),
             ("Daily-refreshed AI hubs", hubs), ("Languages used", langs)]
     body = ""
@@ -116,7 +116,8 @@ def language_totals(repos):
 
 
 def languages_svg(totals):
-    top = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)[:6]
+    grand = sum(totals.values()) or 1
+    top = [kv for kv in sorted(totals.items(), key=lambda kv: kv[1], reverse=True) if kv[1] / grand >= 0.005][:6]
     whole = sum(v for _, v in top) or 1
     x, bar = 24, ""
     for lang, size in top:

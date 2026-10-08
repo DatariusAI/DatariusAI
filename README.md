@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg?v=3" alt="Mohammad Alrashed · AI & Digital Transformation Leader · AI/ML Engineer" width="100%"/>
+<img src="assets/header.svg?v=4" alt="Mohammad Alrashed · AI & Digital Transformation Leader · AI/ML Engineer" width="100%"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DatariusAI&color=00d9ff&style=flat-square&label=Profile+Views)
 
@@ -73,8 +73,8 @@ Let's talk AI, data and digital transformation. Join my communities or message m
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/stats.svg?v=3" alt="GitHub stats" width="49%"/>
-  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/languages.svg?v=3" alt="Most used languages" width="49%"/>
+  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/stats.svg?v=4" alt="GitHub stats" width="49%"/>
+  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/languages.svg?v=4" alt="Most used languages" width="49%"/>
 </div>
 
 ---
