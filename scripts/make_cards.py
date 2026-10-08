@@ -88,10 +88,11 @@ def card(width, height, title, body):
 </svg>"""
 
 
-def stats_svg(repos, total, current, longest):
-    stars = sum(r["stargazers_count"] for r in repos)
-    rows = [("Public repositories", len(repos)), ("Contributions (last 12 months)", f"{total:,}"),
-            ("Current streak (days)", current), ("Longest streak (days)", longest), ("Stars earned", stars)]
+def stats_svg(repos, total, langs):
+    hubs = sum(1 for r in repos if r["name"].startswith("AI-in-") or r["name"].endswith("-AI-Hub")
+               or r["name"] in ("Mathematics-for-AI", "Cloud-Landing-Zones", "AI-Cybersecurity"))
+    rows = [("Public repositories", len(repos)), ("Public contributions (last 12 months)", f"{total:,}"),
+            ("Daily-refreshed AI hubs", hubs), ("Languages used", langs)]
     body = ""
     for i, (label, value) in enumerate(rows):
         y = 70 + i * 26
@@ -103,7 +104,7 @@ def stats_svg(repos, total, current, longest):
     return card(425, 70 + len(rows) * 26 + 18, "Mohammad's GitHub stats", body)
 
 
-def languages_svg(repos):
+def language_totals(repos):
     totals = {}
     for r in repos:
         try:
@@ -112,6 +113,10 @@ def languages_svg(repos):
                     totals[lang] = totals.get(lang, 0) + size
         except Exception as exc:
             print("languages failed:", r["name"], exc)
+    return totals
+
+
+def languages_svg(totals):
     top = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)[:6]
     whole = sum(v for _, v in top) or 1
     x, bar = 24, ""
@@ -133,10 +138,10 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     repos = public_repos()
     total, days = contribution_days()
-    current, longest = streaks(days)
-    open(os.path.join(OUT, "stats.svg"), "w").write(stats_svg(repos, total, current, longest))
-    open(os.path.join(OUT, "languages.svg"), "w").write(languages_svg(repos))
-    print(f"{len(repos)} repos, {total} contributions, streak {current}/{longest}")
+    totals = language_totals(repos)
+    open(os.path.join(OUT, "stats.svg"), "w").write(stats_svg(repos, total, len(totals)))
+    open(os.path.join(OUT, "languages.svg"), "w").write(languages_svg(totals))
+    print(f"{len(repos)} repos, {total} contributions, {len(totals)} languages")
 
 
 if __name__ == "__main__":
