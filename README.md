@@ -86,6 +86,103 @@
 
 ---
 
+## 📚 AI Learning Hub
+
+A curated, free reading list for professionals moving into AI, ML and data science. Everything here is free to read online. Open a section to explore.
+
+### 🆕 Fresh from arXiv
+Newest papers on large language models and AI agents. A GitHub Action refreshes this list every day.
+
+<!-- ARXIV:START -->
+_The list fills in after the first daily run._
+<!-- ARXIV:END -->
+
+<details>
+<summary><b>📖 Free books</b></summary>
+
+| Book | Authors | Best for |
+|------|---------|----------|
+| [Deep Learning](https://www.deeplearningbook.org/) | Goodfellow, Bengio, Courville | The classic theory foundation |
+| [Dive into Deep Learning](https://d2l.ai/) | Zhang, Lipton, Li, Smola | Learning by running code (PyTorch) |
+| [Understanding Deep Learning](https://udlbook.github.io/udlbook/) | Simon J.D. Prince | Clear modern treatment, incl. transformers and diffusion |
+| [Mathematics for Machine Learning](https://mml-book.github.io/) | Deisenroth, Faisal, Ong | Linear algebra, calculus, probability for ML |
+| [An Introduction to Statistical Learning](https://www.statlearning.com/) | James, Witten, Hastie, Tibshirani | Core ML with R and Python labs |
+| [Probabilistic Machine Learning](https://probml.github.io/pml-book/) | Kevin P. Murphy | Rigorous probabilistic view of ML |
+| [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) | Jurafsky, Martin | NLP and LLM fundamentals |
+| [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) | Sutton, Barto | The standard RL text |
+| [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/) | Christoph Molnar | SHAP, LIME and explainability in practice |
+
+</details>
+
+<details>
+<summary><b>📄 Papers that shaped modern AI (arXiv)</b></summary>
+
+**Transformers and LLMs**
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (2017): the transformer
+- [BERT](https://arxiv.org/abs/1810.04805) (2018): bidirectional pre-training
+- [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) (2020): GPT-3
+- [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) (2020)
+- [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022): Chinchilla
+
+**Alignment and fine-tuning**
+- [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) (2022): InstructGPT / RLHF
+- [Constitutional AI](https://arxiv.org/abs/2212.08073) (2022)
+- [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) (2023): DPO
+- [LoRA: Low-Rank Adaptation](https://arxiv.org/abs/2106.09685) (2021)
+
+**Retrieval, reasoning and agents**
+- [Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) (2020): RAG
+- [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) (2022)
+- [ReAct: Reasoning and Acting](https://arxiv.org/abs/2210.03629) (2022)
+- [Toolformer](https://arxiv.org/abs/2302.04761) (2023): models that call tools
+
+**Explainability and responsible AI**
+- [A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874) (2017): SHAP
+- ["Why Should I Trust You?"](https://arxiv.org/abs/1602.04938) (2016): LIME
+- [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993) (2018)
+- [Datasheets for Datasets](https://arxiv.org/abs/1803.09010) (2018)
+
+</details>
+
+<details>
+<summary><b>🎓 Free courses</b></summary>
+
+| Course | Provider | Focus |
+|--------|----------|-------|
+| [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) | Andrej Karpathy | Build GPT from scratch |
+| [Practical Deep Learning for Coders](https://course.fast.ai/) | fast.ai | Hands-on deep learning |
+| [LLM Course](https://huggingface.co/learn/llm-course) | Hugging Face | Transformers, fine-tuning, deployment |
+| [CS229: Machine Learning](https://cs229.stanford.edu/) | Stanford | ML theory |
+| [CS224N: NLP with Deep Learning](https://web.stanford.edu/class/cs224n/) | Stanford | NLP and LLMs |
+| [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course) | Google | Fast practical start |
+| [Short Courses](https://www.deeplearning.ai/short-courses/) | DeepLearning.AI | One-hour GenAI and agent courses |
+| [Made With ML](https://madewithml.com/) | Goku Mohandas | MLOps end to end |
+| [Full Stack Deep Learning](https://fullstackdeeplearning.com/) | FSDL | Shipping ML products |
+
+</details>
+
+<details>
+<summary><b>🏛️ AI governance and risk (for regulated industries)</b></summary>
+
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework): the US reference for managing AI risk
+- [EU AI Act explorer](https://artificialintelligenceact.eu/): full text and guides to the EU regulation
+- [ISO/IEC 42001](https://www.iso.org/standard/81230.html): the AI management system standard
+- [OECD AI Principles](https://oecd.ai/en/ai-principles): international principles for trustworthy AI
+
+</details>
+
+<details>
+<summary><b>📡 Stay current</b></summary>
+
+- [Hugging Face Daily Papers](https://huggingface.co/papers): the community's pick of new research each day
+- [arXiv cs.LG recent](https://arxiv.org/list/cs.LG/recent) and [cs.CL recent](https://arxiv.org/list/cs.CL/recent): every new ML and NLP paper
+- [The Batch](https://www.deeplearning.ai/the-batch/): weekly AI news from DeepLearning.AI
+- [Distill](https://distill.pub/): beautiful interactive explanations (archive)
+
+</details>
+
+---
+
 ## 📈 Activity
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DatariusAI&theme=tokyo-night&hide_border=true)
@@ -94,6 +191,6 @@
 
 ## 🤝 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-alrashed-cqf-epat-cpdsf-cpfe-cpaif-aa69a0298/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-alrashed-cqf-aa69a0298/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DatariusAI)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/StxuyBQbhy)
