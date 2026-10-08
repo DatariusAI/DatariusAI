@@ -27,6 +27,17 @@
 
 ---
 
+## 🤝 Connect
+
+Let's talk AI, data and digital transformation. Join my communities or message me on LinkedIn.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-alrashed-cqf-aa69a0298/)
+[![YouTube](https://img.shields.io/badge/YouTube-@DatariusAI-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DatariusAI)
+[![Discord: Data Science Global Network](https://img.shields.io/badge/Discord-Data_Science_Global_Network-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/vG7GqSh8je)
+[![Discord: CQF Global Quantitative Finance Hub](https://img.shields.io/badge/Discord-CQF_Quant_Finance_Hub-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/qzsNB9ZUFr)
+
+---
+
 ## 🛠️ Tech Stack
 
 **AI & ML**  
