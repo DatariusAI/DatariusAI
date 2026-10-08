@@ -2,7 +2,6 @@
 
 <img src="assets/header.svg?v=4" alt="Mohammad Alrashed · AI & Digital Transformation Leader · AI/ML Engineer" width="100%"/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=DatariusAI&color=00d9ff&style=flat-square&label=Profile+Views)
 
 </div>
 
