@@ -10,11 +10,13 @@
 
 ## 👨‍💻 About Me
 
-> AI/ML Engineer specializing in Large Language Models, MLOps, Agentic AI Architecture,
-> and intelligent system design. Building production-grade AI systems with Azure, Python,
-> and modern ML tooling.
+> AI and digital transformation leader in banking, and a hands-on AI/ML engineer.
+> I lead AI, automation and data platform programs, and I build LLM, MLOps and
+> agentic AI systems with Python, Azure and Google Cloud.
 
+💼 Leading AI, automation and data platforms in GCC banking  
 🔭 Working on: Agentic AI Architecture & LLM Systems  
+🔬 Research: measuring how stable LLM behavior stays under engineering changes  
 🌱 LangGraph · Deep Research Agents · Azure AI Engineer  
 🎓 DBA in Artificial Intelligence & Machine Learning, Walsh College (expected 2027)  
 🎓 MSc Data Science, Deakin University  
