@@ -1,6 +1,6 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&lines=Mohammad+Alrashed+%7C+DatariusAI;AI+%2F+ML+Engineer;LLMs+%7C+MLOps+%7C+Agentic+AI;Building+Intelligent+Systems)
+<img src="assets/header.svg" alt="Mohammad Alrashed · AI & Digital Transformation Leader · AI/ML Engineer" width="100%"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DatariusAI&color=00d9ff&style=flat-square&label=Profile+Views)
 
@@ -17,6 +17,7 @@
 💼 Leading AI, automation and data platforms in GCC banking  
 🔭 Working on: Agentic AI Architecture & LLM Systems  
 🔬 Research: measuring how stable LLM behavior stays under engineering changes  
+🎥 Teaching AI and ML on [YouTube](https://www.youtube.com/@DatariusAI) in English and Arabic  
 🌱 LangGraph · Deep Research Agents · Azure AI Engineer  
 🎓 DBA in Artificial Intelligence & Machine Learning, Walsh College (expected 2027)  
 🎓 MSc Data Science, Deakin University  
@@ -61,12 +62,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DatariusAI&show_icons=true&theme=tokyonight&hide_border=true&count_private=false&hide_rank=true&hide=issues,contribs" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DatariusAI&theme=tokyonight&hide_border=true" width="48%"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DatariusAI&layout=compact&theme=tokyonight&hide_border=true&count_private=false&hide=html,css,shell" width="48%"/>
+  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/stats.svg" alt="GitHub stats" width="49%"/>
+  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/languages.svg" alt="Most used languages" width="49%"/>
 </div>
 
 ---
@@ -113,7 +110,7 @@ A curated, free reading list for professionals moving into AI, ML and data scien
 Newest papers on large language models and AI agents. A GitHub Action refreshes this list every day.
 
 <!-- ARXIV:START -->
-_The list fills in after the first daily run._
+_Today's papers are loading. Meanwhile, browse [arXiv cs.CL](https://arxiv.org/list/cs.CL/recent)._
 <!-- ARXIV:END -->
 
 <details>
@@ -204,12 +201,15 @@ _The list fills in after the first daily run._
 
 ## 📈 Activity
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DatariusAI&theme=tokyo-night&hide_border=true)
+<picture>
+  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/snake.svg" alt="Contribution snake animation" width="100%"/>
+</picture>
 
 ---
 
 ## 🤝 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-alrashed-cqf-aa69a0298/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DatariusAI)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/StxuyBQbhy)
+[![YouTube](https://img.shields.io/badge/YouTube-@DatariusAI-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DatariusAI)
+[![Discord: Data Science Global Network](https://img.shields.io/badge/Discord-Data_Science_Global_Network-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/vG7GqSh8je)
+[![Discord: CQF Global Quantitative Finance Hub](https://img.shields.io/badge/Discord-CQF_Quant_Finance_Hub-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/qzsNB9ZUFr)
