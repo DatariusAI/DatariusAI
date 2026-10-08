@@ -16,7 +16,8 @@
 
 🔭 Working on: Agentic AI Architecture & LLM Systems  
 🌱 LangGraph · Deep Research Agents · Azure AI Engineer  
-🎓 MSc Data Science  
+🎓 DBA in Artificial Intelligence & Machine Learning, Walsh College (expected 2027)  
+🎓 MSc Data Science, Deakin University  
 🎓 MS  Applied Artificial Intelligence  
 🏆 Microsoft AI102 · Microsoft DP100 · AWS MLA · AWS MLS · IBM AI & Data Science Credentials  
 📍 Kuwait  
