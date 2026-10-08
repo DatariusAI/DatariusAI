@@ -87,7 +87,7 @@
 
 ## 🧭 My AI Hubs
 
-Free hubs that refresh every day with the newest arXiv papers and the most-starred open-source code.
+18 free hubs that refresh every day with the newest arXiv papers and the most-starred open-source code.
 
 **By industry.** Research, AI, ML, data science, data analytics and data analysis projects with code.
 
@@ -99,6 +99,8 @@ Free hubs that refresh every day with the newest arXiv papers and the most-starr
 **By cloud platform.** Papers, projects, code and free learning material.
 
 [Google Cloud](https://github.com/DatariusAI/Google-Cloud-AI-Hub) · [Microsoft Azure](https://github.com/DatariusAI/Azure-AI-Hub) · [AWS](https://github.com/DatariusAI/AWS-AI-Hub) · [IBM](https://github.com/DatariusAI/IBM-AI-Hub) · [Huawei Cloud](https://github.com/DatariusAI/Huawei-Cloud-AI-Hub) · [SaaS](https://github.com/DatariusAI/SaaS-AI-Hub)
+
+**Cloud foundations, security and platforms.** [🏗️ Cloud Landing Zones](https://github.com/DatariusAI/Cloud-Landing-Zones) · [🔐 AI and Cybersecurity](https://github.com/DatariusAI/AI-Cybersecurity) · [⚙️ AI Systems and Platforms](https://github.com/DatariusAI/AI-Systems-and-Platforms)
 
 **Mathematics.** [🧮 Mathematics for AI](https://github.com/DatariusAI/Mathematics-for-AI): ten branches, each with free books, courses, YouTube, papers, interactive apps and runnable code.
 
