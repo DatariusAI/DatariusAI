@@ -88,6 +88,23 @@
 
 ---
 
+## 🧭 My AI Hubs
+
+Free hubs that refresh every day with the newest arXiv papers and the most-starred open-source code.
+
+**By industry.** Research, AI, ML, data science, data analytics and data analysis projects with code.
+
+| | | | |
+|---|---|---|---|
+| [🏦 Banking & Finance](https://github.com/DatariusAI/AI-in-Banking-Finance) | [🏥 Healthcare](https://github.com/DatariusAI/AI-in-Healthcare) | [💊 Pharma](https://github.com/DatariusAI/AI-in-Pharma) | [🛒 Retail & E-commerce](https://github.com/DatariusAI/AI-in-Retail-Ecommerce) |
+| [⚡ Energy](https://github.com/DatariusAI/AI-in-Energy) | [📡 Telecom](https://github.com/DatariusAI/AI-in-Telecom) | [🏛️ Government](https://github.com/DatariusAI/AI-in-Government) | [🚗 Automotive](https://github.com/DatariusAI/AI-in-Automotive) |
+
+**By cloud platform.** Papers, projects, code and free learning material.
+
+[Google Cloud](https://github.com/DatariusAI/Google-Cloud-AI-Hub) · [Microsoft Azure](https://github.com/DatariusAI/Azure-AI-Hub) · [AWS](https://github.com/DatariusAI/AWS-AI-Hub) · [IBM](https://github.com/DatariusAI/IBM-AI-Hub) · [Huawei Cloud](https://github.com/DatariusAI/Huawei-Cloud-AI-Hub) · [SaaS](https://github.com/DatariusAI/SaaS-AI-Hub)
+
+**Mathematics.** [🧮 Mathematics for AI](https://github.com/DatariusAI/Mathematics-for-AI): ten branches, each with free books, courses, YouTube, papers, interactive apps and runnable code.
+
 ## 📚 AI Learning Hub
 
 A curated, free reading list for professionals moving into AI, ML and data science. Everything here is free to read online. Open a section to explore.
