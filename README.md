@@ -86,10 +86,10 @@ Let's talk AI, data and digital transformation. Join my communities or message m
 | [LLM](https://github.com/DatariusAI/LLM) | Transformers · RAG · Fine-tuning · Prompt Engineering | Python · HuggingFace · LangChain |
 | [Computer_Vision](https://github.com/DatariusAI/Computer_Vision) | CNNs · Object Detection · ViT · SAM | Python · PyTorch · YOLOv8 |
 | [Reinforcement_Learning](https://github.com/DatariusAI/Reinforcement_Learning) | DQN · PPO · Policy Gradient · Trading Agents | Python · Stable Baselines3 |
-| [MLOps_-_Deployment](https://github.com/DatariusAI/MLOps_-_Deployment) | CI/CD · Monitoring · Containerization | Docker · Azure ML · GitHub Actions |
+| [MLOps-Deployment](https://github.com/DatariusAI/MLOps-Deployment) | CI/CD · Monitoring · Containerization | Docker · Azure ML · GitHub Actions |
 | [Natural_Language_Processing](https://github.com/DatariusAI/Natural_Language_Processing) | BERT · NER · Embeddings · Sentiment | Python · spaCy · HuggingFace |
 | [Time_Series](https://github.com/DatariusAI/Time_Series) | Forecasting · Anomaly Detection · LSTMs | Python · PyTorch · statsmodels |
-| [Explainable_AI_-XAI-](https://github.com/DatariusAI/Explainable_AI_-XAI-) | SHAP · LIME · Fairness · Responsible AI | Python · SHAP · Fairlearn |
+| [Explainable-AI-XAI](https://github.com/DatariusAI/Explainable-AI-XAI) | SHAP · LIME · Fairness · Responsible AI | Python · SHAP · Fairlearn |
 | [AutoML](https://github.com/DatariusAI/AutoML) | Hyperparameter Optimization · NAS | Python · Optuna · AutoSklearn |
 | [Data_Science](https://github.com/DatariusAI/Data_Science) | EDA · Feature Engineering · Dashboards | Python · Pandas · Plotly |
 | [Core_Machine_Learning](https://github.com/DatariusAI/Core_Machine_Learning) | Foundational ML · Optimization · Theory | Python · Scikit-learn · NumPy |
