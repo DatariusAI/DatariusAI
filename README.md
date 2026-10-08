@@ -123,7 +123,12 @@ A curated, free reading list for professionals moving into AI, ML and data scien
 Newest papers on large language models and AI agents. A GitHub Action refreshes this list every day.
 
 <!-- ARXIV:START -->
-_Today's papers are loading. Meanwhile, browse [arXiv cs.CL](https://arxiv.org/list/cs.CL/recent)._
+- [EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory](https://arxiv.org/abs/2610.10533) · Hongru Cai et al. · 2026-10-07
+- [SciExam for ENSO: Can AI Agents Build Climate Models?](https://arxiv.org/abs/2610.10513) · Yinling Zhang et al. · 2026-10-07
+- [Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models](https://arxiv.org/abs/2610.10478) · Tan Yu et al. · 2026-10-07
+- [A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents](https://arxiv.org/abs/2610.10468) · Ali Asaria et al. · 2026-10-07
+- [PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs](https://arxiv.org/abs/2610.10455) · Linghao Meng et al. · 2026-10-07
+- [CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution](https://arxiv.org/abs/2610.10426) · Jixuan Chen et al. · 2026-10-07
 <!-- ARXIV:END -->
 
 <details>
