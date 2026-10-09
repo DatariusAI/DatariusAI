@@ -1,84 +1,58 @@
 <div align="center">
 
-<img src="assets/header.svg?v=4" alt="Mohammad Alrashed · AI & Digital Transformation Leader · AI/ML Engineer" width="100%"/>
+<img src="assets/header.svg?v=6" alt="Mohammad Alrashed · AI & Digital Transformation Leader · AI/ML Engineer" width="100%"/>
 
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 > AI and digital transformation leader in banking, and a hands-on AI/ML engineer.
 > I lead AI, automation and data platform programs, and I build LLM, MLOps and
 > agentic AI systems with Python, Azure and Google Cloud.
 
-💼 Leading AI, automation and data platforms in GCC banking  
-🔭 Working on: Agentic AI Architecture & LLM Systems  
-🔬 Research: measuring how stable LLM behavior stays under engineering changes  
-🎥 Teaching AI and ML on [YouTube](https://www.youtube.com/@DatariusAI) in English and Arabic  
-🌱 LangGraph · Deep Research Agents · Azure AI Engineer  
-🎓 DBA in Artificial Intelligence & Machine Learning, Walsh College (expected 2027)  
-🎓 MSc Data Science, Deakin University  
-🎓 MS  Applied Artificial Intelligence  
-🏆 Microsoft AI102 · Microsoft DP100 · AWS MLA · AWS MLS · IBM AI & Data Science Credentials  
-📍 Kuwait  
+- Leading AI, automation and data platforms in GCC banking
+- Working on: Agentic AI Architecture & LLM Systems
+- Research: measuring how stable LLM behavior stays under engineering changes
+- Teaching AI and ML on [YouTube](https://www.youtube.com/@DatariusAI) in English and Arabic
+- LangGraph · Deep Research Agents · Azure AI Engineer
+- DBA in Artificial Intelligence & Machine Learning, Walsh College (expected 2027)
+- MSc Data Science, Deakin University
+- MS Applied Artificial Intelligence
+- Microsoft AI102 · Microsoft DP100 · AWS MLA · AWS MLS · IBM AI & Data Science Credentials
+- Kuwait
 
 ---
 
-## 🤝 Connect
+## Connect
 
 Let's talk AI, data and digital transformation. Join my communities or message me on LinkedIn.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-alrashed-cqf-aa69a0298/)
-[![YouTube](https://img.shields.io/badge/YouTube-@DatariusAI-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DatariusAI)
-[![Discord: Data Science Global Network](https://img.shields.io/badge/Discord-Data_Science_Global_Network-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/vG7GqSh8je)
-[![Discord: CQF Global Quantitative Finance Hub](https://img.shields.io/badge/Discord-CQF_Quant_Finance_Hub-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/qzsNB9ZUFr)
+<a href="https://www.linkedin.com/in/mohammad-alrashed-cqf-aa69a0298/"><img src="assets/chip-linkedin.svg?v=1" alt="LinkedIn" height="29"/></a>
+<a href="https://www.youtube.com/@DatariusAI"><img src="assets/chip-youtube.svg?v=1" alt="YouTube @DatariusAI" height="29"/></a>
+<a href="https://discord.gg/vG7GqSh8je"><img src="assets/chip-discord-dsgn.svg?v=1" alt="Discord: Data Science Global Network" height="29"/></a>
+<a href="https://discord.gg/qzsNB9ZUFr"><img src="assets/chip-discord-cqf.svg?v=1" alt="Discord: CQF Quant Finance Hub" height="29"/></a>
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**AI & ML**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-**LLMs & Agentic AI**  
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic_Claude-CC785C?style=for-the-badge&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-
-**MLOps & Cloud**  
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Microsoft Fabric](https://img.shields.io/badge/Microsoft_Fabric-742774?style=for-the-badge&logo=microsoft&logoColor=white)
-
-**Web & Tools**  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<img src="assets/tech-stack.svg?v=1" alt="Tech stack: Python, PyTorch, TensorFlow, Keras, scikit-learn, Hugging Face, OpenAI, Anthropic Claude, LangChain, Microsoft Azure, Google Cloud, AWS, Docker, GitHub Actions, MLflow, FastAPI, Microsoft Fabric, SQL, BigQuery, JavaScript, React, Node.js" width="100%"/>
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/stats.svg?v=4" alt="GitHub stats" width="49%"/>
-  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/languages.svg?v=4" alt="Most used languages" width="49%"/>
+  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/stats.svg?v=6" alt="GitHub stats" width="49%"/>
+  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/languages.svg?v=6" alt="Most used languages" width="49%"/>
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 | Project | Domain | Stack |
 |---------|--------|-------|
@@ -95,7 +69,7 @@ Let's talk AI, data and digital transformation. Join my communities or message m
 
 ---
 
-## 🧭 My AI Hubs
+## My AI Hubs
 
 18 free hubs that refresh every day with the newest arXiv papers and the most-starred open-source code.
 
@@ -103,22 +77,22 @@ Let's talk AI, data and digital transformation. Join my communities or message m
 
 | | | | |
 |---|---|---|---|
-| [🏦 Banking & Finance](https://github.com/DatariusAI/AI-in-Banking-Finance) | [🏥 Healthcare](https://github.com/DatariusAI/AI-in-Healthcare) | [💊 Pharma](https://github.com/DatariusAI/AI-in-Pharma) | [🛒 Retail & E-commerce](https://github.com/DatariusAI/AI-in-Retail-Ecommerce) |
-| [⚡ Energy](https://github.com/DatariusAI/AI-in-Energy) | [📡 Telecom](https://github.com/DatariusAI/AI-in-Telecom) | [🏛️ Government](https://github.com/DatariusAI/AI-in-Government) | [🚗 Automotive](https://github.com/DatariusAI/AI-in-Automotive) |
+| [Banking & Finance](https://github.com/DatariusAI/AI-in-Banking-Finance) | [Healthcare](https://github.com/DatariusAI/AI-in-Healthcare) | [Pharma](https://github.com/DatariusAI/AI-in-Pharma) | [Retail & E-commerce](https://github.com/DatariusAI/AI-in-Retail-Ecommerce) |
+| [Energy](https://github.com/DatariusAI/AI-in-Energy) | [Telecom](https://github.com/DatariusAI/AI-in-Telecom) | [Government](https://github.com/DatariusAI/AI-in-Government) | [Automotive](https://github.com/DatariusAI/AI-in-Automotive) |
 
 **By cloud platform.** Papers, projects, code and free learning material.
 
 [Google Cloud](https://github.com/DatariusAI/Google-Cloud-AI-Hub) · [Microsoft Azure](https://github.com/DatariusAI/Azure-AI-Hub) · [AWS](https://github.com/DatariusAI/AWS-AI-Hub) · [IBM](https://github.com/DatariusAI/IBM-AI-Hub) · [Huawei Cloud](https://github.com/DatariusAI/Huawei-Cloud-AI-Hub) · [SaaS](https://github.com/DatariusAI/SaaS-AI-Hub)
 
-**Cloud foundations, security and platforms.** [🏗️ Cloud Landing Zones](https://github.com/DatariusAI/Cloud-Landing-Zones) · [🔐 AI and Cybersecurity](https://github.com/DatariusAI/AI-Cybersecurity) · [⚙️ AI Systems and Platforms](https://github.com/DatariusAI/AI-Systems-and-Platforms)
+**Cloud foundations, security and platforms.** [Cloud Landing Zones](https://github.com/DatariusAI/Cloud-Landing-Zones) · [AI and Cybersecurity](https://github.com/DatariusAI/AI-Cybersecurity) · [AI Systems and Platforms](https://github.com/DatariusAI/AI-Systems-and-Platforms)
 
-**Mathematics.** [🧮 Mathematics for AI](https://github.com/DatariusAI/Mathematics-for-AI): ten branches, each with free books, courses, YouTube, papers, interactive apps and runnable code.
+**Mathematics.** [Mathematics for AI](https://github.com/DatariusAI/Mathematics-for-AI): ten branches, each with free books, courses, YouTube, papers, interactive apps and runnable code.
 
-## 📚 AI Learning Hub
+## AI Learning Hub
 
 A curated, free reading list for professionals moving into AI, ML and data science. Everything here is free to read online. Open a section to explore.
 
-### 🆕 Fresh from arXiv
+### Fresh from arXiv
 Newest papers on large language models and AI agents. A GitHub Action refreshes this list every day.
 
 <!-- ARXIV:START -->
@@ -126,7 +100,7 @@ _Today's papers are loading. Meanwhile, browse [arXiv cs.CL](https://arxiv.org/l
 <!-- ARXIV:END -->
 
 <details>
-<summary><b>📖 Free books</b></summary>
+<summary><b>Free books</b></summary>
 
 | Book | Authors | Best for |
 |------|---------|----------|
@@ -143,7 +117,7 @@ _Today's papers are loading. Meanwhile, browse [arXiv cs.CL](https://arxiv.org/l
 </details>
 
 <details>
-<summary><b>📄 Papers that shaped modern AI (arXiv)</b></summary>
+<summary><b>Papers that shaped modern AI (arXiv)</b></summary>
 
 **Transformers and LLMs**
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (2017): the transformer
@@ -173,7 +147,7 @@ _Today's papers are loading. Meanwhile, browse [arXiv cs.CL](https://arxiv.org/l
 </details>
 
 <details>
-<summary><b>🎓 Free courses</b></summary>
+<summary><b>Free courses</b></summary>
 
 | Course | Provider | Focus |
 |--------|----------|-------|
@@ -190,7 +164,7 @@ _Today's papers are loading. Meanwhile, browse [arXiv cs.CL](https://arxiv.org/l
 </details>
 
 <details>
-<summary><b>🏛️ AI governance and risk (for regulated industries)</b></summary>
+<summary><b>AI governance and risk (for regulated industries)</b></summary>
 
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework): the US reference for managing AI risk
 - [EU AI Act explorer](https://artificialintelligenceact.eu/): full text and guides to the EU regulation
@@ -200,7 +174,7 @@ _Today's papers are loading. Meanwhile, browse [arXiv cs.CL](https://arxiv.org/l
 </details>
 
 <details>
-<summary><b>📡 Stay current</b></summary>
+<summary><b>Stay current</b></summary>
 
 - [Hugging Face Daily Papers](https://huggingface.co/papers): the community's pick of new research each day
 - [arXiv cs.LG recent](https://arxiv.org/list/cs.LG/recent) and [cs.CL recent](https://arxiv.org/list/cs.CL/recent): every new ML and NLP paper
@@ -211,17 +185,17 @@ _Today's papers are loading. Meanwhile, browse [arXiv cs.CL](https://arxiv.org/l
 
 ---
 
-## 📈 Activity
+## Activity
 
 <picture>
-  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/snake.svg" alt="Contribution snake animation" width="100%"/>
+  <img src="https://raw.githubusercontent.com/DatariusAI/DatariusAI/output/snake.svg?v=6" alt="Contribution snake animation" width="100%"/>
 </picture>
 
 ---
 
-## 🤝 Connect
+## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-alrashed-cqf-aa69a0298/)
-[![YouTube](https://img.shields.io/badge/YouTube-@DatariusAI-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DatariusAI)
-[![Discord: Data Science Global Network](https://img.shields.io/badge/Discord-Data_Science_Global_Network-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/vG7GqSh8je)
-[![Discord: CQF Global Quantitative Finance Hub](https://img.shields.io/badge/Discord-CQF_Quant_Finance_Hub-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/qzsNB9ZUFr)
+<a href="https://www.linkedin.com/in/mohammad-alrashed-cqf-aa69a0298/"><img src="assets/chip-linkedin.svg?v=1" alt="LinkedIn" height="29"/></a>
+<a href="https://www.youtube.com/@DatariusAI"><img src="assets/chip-youtube.svg?v=1" alt="YouTube @DatariusAI" height="29"/></a>
+<a href="https://discord.gg/vG7GqSh8je"><img src="assets/chip-discord-dsgn.svg?v=1" alt="Discord: Data Science Global Network" height="29"/></a>
+<a href="https://discord.gg/qzsNB9ZUFr"><img src="assets/chip-discord-cqf.svg?v=1" alt="Discord: CQF Quant Finance Hub" height="29"/></a>

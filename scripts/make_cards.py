@@ -16,8 +16,8 @@ USER = os.environ.get("CARD_USER", "DatariusAI")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OUT = sys.argv[1] if len(sys.argv) > 1 else "cards"
 
-# Tokyo Night palette, to match the rest of the profile page
-BG, BORDER, TITLE, TEXT, ACCENT, MUTED = "#1a1b27", "#2a2e42", "#70a5fd", "#c0caf5", "#38bdae", "#787c99"
+# Graphite palette (GitHub dark), to match the rest of the profile page
+BG, BORDER, TITLE, TEXT, ACCENT, MUTED = "#161b22", "#30363d", "#e6edf3", "#c9d1d9", "#58a6ff", "#8b949e"
 LANG_COLORS = {
     "Python": "#3572A5", "Jupyter Notebook": "#DA5B0B", "TypeScript": "#3178c6", "JavaScript": "#f1e05a",
     "HTML": "#e34c26", "CSS": "#663399", "Shell": "#89e051", "Go": "#00ADD8", "R": "#198CE7",
@@ -100,7 +100,7 @@ def stats_svg(repos, total, langs):
                  f'<text x="44" y="{y}" class="l">{label}</text>'
                  f'<text x="400" y="{y}" class="v" text-anchor="end">{value}</text></g>')
     body += f'<text x="24" y="{70 + len(rows)*26 + 4}" class="s">Updated {dt.date.today():%d %b %Y}</text>'
-    return card(425, CARD_H, "Mohammad's GitHub stats", body)
+    return card(425, CARD_H, "GitHub stats", body)
 
 
 def language_totals(repos):
