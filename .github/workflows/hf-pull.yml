@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 # Downloads Space code and logs for maintenance. The bundle is encrypted with a
 # maintainer public key before upload, so the artifact is unreadable to others.
@@ -44,8 +44,11 @@ jobs:
           openssl pkeyutl -encrypt -pubin -inkey pub.pem -in key.bin -out key.bin.enc
           mkdir bundle && mv spaces.tgz.enc key.bin.enc bundle/
           rm -rf spaces spaces.tgz key.bin
-      - uses: actions/upload-artifact@v4
+      - name: Publish encrypted bundle
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          name: spaces-encrypted
-          path: bundle
-          retention-days: 1
+          target_branch: hf-bundle
+          build_dir: bundle
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
