@@ -37,6 +37,7 @@ Let's talk AI, data and digital transformation. Join my communities or message m
 <a href="https://www.youtube.com/@DatariusAI"><img src="assets/chip-youtube.svg?v=1" alt="YouTube @DatariusAI" height="29"/></a>
 <a href="https://discord.gg/vG7GqSh8je"><img src="assets/chip-discord-dsgn.svg?v=1" alt="Discord: Data Science Global Network" height="29"/></a>
 <a href="https://discord.gg/qzsNB9ZUFr"><img src="assets/chip-discord-cqf.svg?v=1" alt="Discord: CQF Quant Finance Hub" height="29"/></a>
+<a href="https://huggingface.co/DatariusAI"><img src="assets/chip-huggingface.svg?v=1" alt="Hugging Face" height="29"/></a>
 
 ---
 
@@ -96,6 +97,28 @@ Finished, runnable work.
 
 **Learning tracks (in progress).** Notebooks I am building topic by topic:
 [LLMs](https://github.com/DatariusAI/LLM) · [Computer Vision](https://github.com/DatariusAI/Computer_Vision) · [NLP](https://github.com/DatariusAI/Natural_Language_Processing) · [Reinforcement Learning](https://github.com/DatariusAI/Reinforcement_Learning) · [Time Series](https://github.com/DatariusAI/Time_Series) · [Explainable AI](https://github.com/DatariusAI/Explainable-AI-XAI) · [AutoML](https://github.com/DatariusAI/AutoML) · [MLOps](https://github.com/DatariusAI/MLOps-Deployment) · [Data Science](https://github.com/DatariusAI/Data_Science) · [Core ML](https://github.com/DatariusAI/Core_Machine_Learning)
+
+---
+
+## Live Demos
+
+Apps you can open and use right now. Built while learning, and still the base of my AI/ML work. Source: [AI_Projects](https://github.com/DatariusAI/AI_Projects).
+
+| App | What it does | Platform |
+|---|---|---|
+| [Fraud Risk Scoring](https://kibsfraudrisk.streamlit.app/) | Upload transactions and score fraud risk | Streamlit |
+| [Loan Acceptance Prediction](https://kibsloanacceptance.streamlit.app/) | Predict loan approval with logistic regression | Streamlit |
+| [Customer Segmentation](https://kibssegments.streamlit.app/) | Cluster customers into segments with k-means | Streamlit |
+| [ChurnGuard](https://churnguard2025.streamlit.app/) | Churn prediction dashboard | Streamlit |
+| [Melbourne House Prices](https://deakinhousepricesmalbourne.streamlit.app/) | Estimate a property price from its features | Streamlit |
+| [AAPL vs MSFT Dashboard](https://bqntbql.streamlit.app/) | Interactive investment comparison dashboard | Streamlit |
+| [Movie Recommender](https://blank-app-kpkm6rp3yrcu8mpp7tk3yj.streamlit.app/) | Rate films and get recommendations | Streamlit |
+| [Dubai Space Travel](https://dubaispacetravel.streamlit.app/) | Booking app with an AI travel assistant | Streamlit |
+| [Pneumonia Detection](https://huggingface.co/spaces/DatariusAI/PneumoniaDetectionCV) | Deep learning on chest X-rays | Hugging Face |
+| [AUB Admissions Assistant](https://huggingface.co/spaces/DatariusAI/Multimodal_Virtual_Assistant_with_RAG_Project) | Multimodal RAG assistant for admissions questions | Hugging Face |
+| [Advanced Backtesting Platform](https://huggingface.co/spaces/DatariusAI/advance_backtesting_platform) | Backtest trading strategies | Hugging Face |
+
+All apps are checked every 6 hours and woken if they sleep. [Live status](https://github.com/DatariusAI/DatariusAI/blob/app-status/STATUS.md). More on [Hugging Face](https://huggingface.co/DatariusAI).
 
 ---
 
@@ -229,3 +252,4 @@ _Today's papers are loading. Meanwhile, browse [arXiv cs.CL](https://arxiv.org/l
 <a href="https://www.youtube.com/@DatariusAI"><img src="assets/chip-youtube.svg?v=1" alt="YouTube @DatariusAI" height="29"/></a>
 <a href="https://discord.gg/vG7GqSh8je"><img src="assets/chip-discord-dsgn.svg?v=1" alt="Discord: Data Science Global Network" height="29"/></a>
 <a href="https://discord.gg/qzsNB9ZUFr"><img src="assets/chip-discord-cqf.svg?v=1" alt="Discord: CQF Quant Finance Hub" height="29"/></a>
+<a href="https://huggingface.co/DatariusAI"><img src="assets/chip-huggingface.svg?v=1" alt="Hugging Face" height="29"/></a>
