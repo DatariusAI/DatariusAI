@@ -2,6 +2,11 @@ name: App screenshots
 
 on:
   workflow_dispatch:
+    inputs:
+      only:
+        description: optional comma-separated Space ids
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -20,6 +25,8 @@ jobs:
           pip install playwright huggingface_hub
           python -m playwright install --with-deps chromium
       - run: python scripts/screenshots.py shots
+        env:
+          ONLY: ${{ inputs.only }}
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: app-shots

@@ -10,6 +10,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from keep_awake import hf_url, streamlit_state  # noqa: E402
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else "shots"
+ONLY = os.environ.get("ONLY", "")  # optional: comma-separated app/space ids to shoot
 APPS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "apps.json"), encoding="utf-8"))
 
 
@@ -23,7 +24,7 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(viewport={"width": 1366, "height": 850}, device_scale_factor=1)
-        for app in APPS["streamlit"]:
+        for app in ([] if ONLY else APPS["streamlit"]):
             name, url = app["name"], app["url"]
             try:
                 page.goto(url, wait_until="domcontentloaded", timeout=90_000)
@@ -39,7 +40,7 @@ def main():
             page.screenshot(path=os.path.join(OUT, f))
             index.append({"kind": "streamlit", "name": name, "url": url, "file": f, "state": state})
             print(state, url, flush=True)
-        for sp in APPS["huggingface"]:
+        for sp in [x for x in APPS["huggingface"] if not ONLY or x["id"] in ONLY.split(",")]:
             url = hf_url(sp["id"])
             try:
                 page.goto(url, wait_until="domcontentloaded", timeout=120_000)
