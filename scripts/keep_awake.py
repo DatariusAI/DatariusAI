@@ -36,29 +36,49 @@ def page_text(page):
     return "\n".join(texts)
 
 
+def streamlit_state(page):
+    """Poll the app iframe until the app renders or shows an error (up to 3 minutes)."""
+    for _ in range(36):
+        for frame in page.frames:
+            try:
+                txt = frame.inner_text("body")
+            except Exception:
+                continue
+            if "Error running app" in txt or "Traceback" in txt or "ModuleNotFoundError" in txt:
+                return "error", " ".join(txt.split())[:160]
+            if frame.query_selector('[data-testid="stAppViewContainer"], [data-testid="stApp"]') and len(txt.strip()) > 40:
+                return "ok", " ".join(txt.split())[:160]
+        page.wait_for_timeout(5_000)
+    return "waking", "still starting after 3 minutes"
+
+
 def check(page, url, kind):
     page.goto(url, wait_until="domcontentloaded", timeout=90_000)
-    page.wait_for_timeout(8_000)
+    page.wait_for_timeout(6_000)
     woke = False
-    if kind == "streamlit":
-        button = page.query_selector("button:has-text('Yes, get this app back up')")
-        if button:
-            button.click()
-            woke = True
-            page.wait_for_timeout(60_000)  # cold start
-    text = page_text(page)
-    if kind == "hf" and any(m in text for m in SLEEP_MARKERS):
+    button = page.query_selector("button:has-text('Yes, get this app back up')")
+    if button:
+        button.click()
         woke = True
-        page.wait_for_timeout(60_000)
-        text = page_text(page)
-    if any(m in text for m in ERROR_MARKERS):
-        state = "error"
-    elif any(m in text for m in SLEEP_MARKERS):
-        state = "waking"
-    else:
-        state = "ok"
-    snippet = " ".join(text.split())[:160]
+    state, snippet = streamlit_state(page)
     return {"state": state, "woke": woke, "snippet": snippet}
+
+
+def hf_check(space_id):
+    """Use the Hugging Face API: restart the Space if it sleeps. Needs HF_TOKEN."""
+    token = os.environ.get("HF_TOKEN")
+    if not token:
+        return {"state": "unknown", "woke": False, "snippet": "add an HF_TOKEN secret to manage Spaces"}
+    from huggingface_hub import HfApi
+    api = HfApi(token=token)
+    repo = f"DatariusAI/{space_id}"
+    stage = api.get_space_runtime(repo).stage
+    woke = False
+    if stage in ("SLEEPING", "PAUSED", "STOPPED"):
+        api.restart_space(repo)
+        woke = True
+    state = "error" if "ERROR" in stage else "ok"
+    return {"state": state, "woke": woke, "snippet": stage}
 
 
 def main():
@@ -80,7 +100,7 @@ def main():
             row = {"kind": "huggingface", "name": space["name"], "url": url,
                    "page": f"https://huggingface.co/spaces/DatariusAI/{space['id']}"}
             try:
-                row.update(check(page, url, "hf"))
+                row.update(hf_check(space["id"]))
             except Exception as exc:
                 row.update({"state": "error", "woke": False, "snippet": str(exc)[:160]})
             results.append(row)
@@ -88,7 +108,7 @@ def main():
         browser.close()
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     json.dump({"checked": stamp, "apps": results}, open(os.path.join(OUT, "status.json"), "w"), indent=2)
-    icon = {"ok": "🟢", "waking": "🟡", "error": "🔴"}
+    icon = {"ok": "🟢", "waking": "🟡", "error": "🔴", "unknown": "⚪"}
     lines = [f"# App status\n\nChecked {stamp}. Runs every 6 hours.\n", "| | App | Platform | Note |", "|---|---|---|---|"]
     for r in results:
         note = "woken up" if r["woke"] else ""

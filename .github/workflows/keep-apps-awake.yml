@@ -21,9 +21,11 @@ jobs:
           python-version: "3.12"
       - name: Install Playwright
         run: |
-          pip install playwright
+          pip install playwright huggingface_hub
           python -m playwright install --with-deps chromium
       - name: Visit and wake apps
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python scripts/keep_awake.py status
       - name: Publish status
         uses: crazy-max/ghaction-github-pages@v4
