@@ -1,0 +1,29 @@
+name: App screenshots
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Screenshots every live app and publishes them to the app-shots branch.
+jobs:
+  shoot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install playwright huggingface_hub
+          python -m playwright install --with-deps chromium
+      - run: python scripts/screenshots.py shots
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: app-shots
+          build_dir: shots
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
