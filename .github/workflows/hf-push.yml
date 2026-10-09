@@ -1,0 +1,37 @@
+name: Push Space fixes (encrypted)
+
+on:
+  workflow_dispatch:
+    inputs:
+      key:
+        description: one-time bundle key
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Mask key
+        run: echo "::add-mask::${{ inputs.key }}"
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: hf-fixes
+          path: fixes
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install huggingface_hub
+      - name: Decrypt
+        env:
+          KEY: ${{ inputs.key }}
+        run: |
+          openssl enc -d -aes-256-cbc -pbkdf2 -in fixes/fixes.tgz.enc -pass env:KEY | tar xz
+      - name: Upload and wait for builds
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/hf_push.py fixed
