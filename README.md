@@ -84,18 +84,18 @@ Click a tool to open its documentation. Cloud platforms open my hub for that clo
 
 ## Featured Projects
 
-| Project | Domain | Stack |
-|---------|--------|-------|
-| [LLM](https://github.com/DatariusAI/LLM) | Transformers · RAG · Fine-tuning · Prompt Engineering | Python · HuggingFace · LangChain |
-| [Computer_Vision](https://github.com/DatariusAI/Computer_Vision) | CNNs · Object Detection · ViT · SAM | Python · PyTorch · YOLOv8 |
-| [Reinforcement_Learning](https://github.com/DatariusAI/Reinforcement_Learning) | DQN · PPO · Policy Gradient · Trading Agents | Python · Stable Baselines3 |
-| [MLOps-Deployment](https://github.com/DatariusAI/MLOps-Deployment) | CI/CD · Monitoring · Containerization | Docker · Azure ML · GitHub Actions |
-| [Natural_Language_Processing](https://github.com/DatariusAI/Natural_Language_Processing) | BERT · NER · Embeddings · Sentiment | Python · spaCy · HuggingFace |
-| [Time_Series](https://github.com/DatariusAI/Time_Series) | Forecasting · Anomaly Detection · LSTMs | Python · PyTorch · statsmodels |
-| [Explainable-AI-XAI](https://github.com/DatariusAI/Explainable-AI-XAI) | SHAP · LIME · Fairness · Responsible AI | Python · SHAP · Fairlearn |
-| [AutoML](https://github.com/DatariusAI/AutoML) | Hyperparameter Optimization · NAS | Python · Optuna · AutoSklearn |
-| [Data_Science](https://github.com/DatariusAI/Data_Science) | EDA · Feature Engineering · Dashboards | Python · Pandas · Plotly |
-| [Core_Machine_Learning](https://github.com/DatariusAI/Core_Machine_Learning) | Foundational ML · Optimization · Theory | Python · Scikit-learn · NumPy |
+Finished, runnable work.
+
+| Project | What it is | Stack |
+|---------|-----------|-------|
+| [Azure MLOps CI/CD Pipeline](https://github.com/DatariusAI/Azure-mlops-CICD-pipeline) | End-to-end MLOps on Azure ML: train, register and deploy a diabetes classifier through GitHub Actions | Azure ML · MLflow · scikit-learn · GitHub Actions |
+| [ML CI/CD: Used Car Prices](https://github.com/DatariusAI/CICD-Project-FullCode) | A second production pipeline: price regression with automated retraining and deployment | Azure ML · MLflow · GitHub Actions |
+| [AI Projects](https://github.com/DatariusAI/AI_Projects) | Working AI apps: Arabic assistant, fraud risk scoring, an insurance claims assistant, a graph-neural-network recommender | Streamlit · FastAPI · Hugging Face · Docker |
+| [Claude Code Mastery](https://github.com/DatariusAI/claude-code-mastery) | 7 projects on AI-assisted engineering: governed AI pipeline, MCP tooling, multi-agent skills, CI/CD | Claude Code · MCP · Python |
+| [SpaceX Landing Prediction](https://github.com/DatariusAI/KuwaitAI_Applied_Data_Science_Capstone) | IBM Data Science capstone: data collection, SQL, EDA, dashboard and classification models | Python · SQL · Plotly Dash · scikit-learn |
+
+**Learning tracks (in progress).** Notebooks I am building topic by topic:
+[LLMs](https://github.com/DatariusAI/LLM) · [Computer Vision](https://github.com/DatariusAI/Computer_Vision) · [NLP](https://github.com/DatariusAI/Natural_Language_Processing) · [Reinforcement Learning](https://github.com/DatariusAI/Reinforcement_Learning) · [Time Series](https://github.com/DatariusAI/Time_Series) · [Explainable AI](https://github.com/DatariusAI/Explainable-AI-XAI) · [AutoML](https://github.com/DatariusAI/AutoML) · [MLOps](https://github.com/DatariusAI/MLOps-Deployment) · [Data Science](https://github.com/DatariusAI/Data_Science) · [Core ML](https://github.com/DatariusAI/Core_Machine_Learning)
 
 ---
 
