@@ -1,0 +1,51 @@
+name: Pull Space sources (encrypted)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Downloads Space code and logs for maintenance. The bundle is encrypted with a
+# maintainer public key before upload, so the artifact is unreadable to others.
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install huggingface_hub requests
+      - name: Download
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/hf_pull.py spaces
+      - name: Encrypt
+        run: |
+          cat > pub.pem <<'EOF'
+          -----BEGIN PUBLIC KEY-----
+          MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEApJtOZ/PGf6zLDrJuZh+k
+          mJ2r2s7tYZrpsyxpIidk5Xix6ZLLYw1YcCnP2dyDnx5db7oE1c0dwz15q6sIQ7Vn
+          AYpWq8rIgsQXQ6XXlTsRpdNwV2Mnofi5RVKtJvKpV++8qrWlwGr0jwyrUm5J7z1B
+          X+2QE8ZgfyrcKpWgHS/JHd2LFuuV2MWEu9/5KSR2mVU+81Rd8xWqnfONo7yFgJNc
+          joRpbgFbHURAEuakJctK4pmc4UPKvqYLak1DcviUOudB9JlBYmIJQRJEOSAY1sr4
+          6+fbapTgfj4sgBb8Hrlar6+fld0T7aGopbVuya+6K7O6CpnK/Ex9LOo0JJ+CtHvN
+          EIk5zL2cYWfrKHggMBkulyOn+fBvS0HoRLuIXqjwO+cDJXUBaZTnQbrCoCcECAN7
+          zOGHqtHhP25Eav2JssULnAH2Q6kJFYcWwNFxBx5DfWHB9abZQc0gTf4M8xDABASa
+          0ikkuYJ/Wc/HeMr0LAW34IPj4+kAZ/LR3DEDwpJjedBBAgMBAAE=
+          -----END PUBLIC KEY-----
+          EOF
+          sed -i 's/^ *//' pub.pem
+          tar czf spaces.tgz spaces
+          openssl rand -out key.bin 32
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in spaces.tgz -out spaces.tgz.enc -pass file:key.bin
+          openssl pkeyutl -encrypt -pubin -inkey pub.pem -in key.bin -out key.bin.enc
+          mkdir bundle && mv spaces.tgz.enc key.bin.enc bundle/
+          rm -rf spaces spaces.tgz key.bin
+      - uses: actions/upload-artifact@v4
+        with:
+          name: spaces-encrypted
+          path: bundle
+          retention-days: 1
