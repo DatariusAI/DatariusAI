@@ -1,0 +1,35 @@
+name: Keep apps awake
+
+on:
+  schedule:
+    - cron: "11 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Visits every Streamlit app and Hugging Face Space, wakes sleepers, and publishes
+# a status report to the app-status branch (main is never touched).
+jobs:
+  visit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Visit and wake apps
+        run: python scripts/keep_awake.py status
+      - name: Publish status
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: app-status
+          build_dir: status
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

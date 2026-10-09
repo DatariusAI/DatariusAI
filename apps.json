@@ -1,0 +1,36 @@
+{
+  "streamlit": [
+    {"name": "Fraud Risk Scoring", "url": "https://kibsfraudrisk.streamlit.app/"},
+    {"name": "Loan Acceptance Prediction", "url": "https://kibsloanacceptance.streamlit.app/"},
+    {"name": "Customer Segmentation", "url": "https://kibssegments.streamlit.app/"},
+    {"name": "ChurnGuard: Customer Churn", "url": "https://churnguard2025.streamlit.app/"},
+    {"name": "Melbourne House Prices", "url": "https://deakinhousepricesmalbourne.streamlit.app/"},
+    {"name": "Bloomberg Query (BQL) Explorer", "url": "https://bqntbql.streamlit.app/"},
+    {"name": "Insurance Claims Assistant (Arabic)", "url": "https://medicalchatbot2025.streamlit.app/"},
+    {"name": "AI Knowledge Repo", "url": "https://medicalchatbotfinal2025.streamlit.app/"},
+    {"name": "Arabic Assistant", "url": "https://arabic-assitant.streamlit.app/"},
+    {"name": "Arabic Assistant 2025", "url": "https://arabic-assistant202.streamlit.app/"},
+    {"name": "Dubai Space Travel", "url": "https://dubaispacetravel.streamlit.app/"},
+    {"name": "GCNN Recommender", "url": "https://gcnnrecommender01.streamlit.app/"},
+    {"name": "Nutrition Disorder Agent", "url": "https://nutritiondisorderagent.streamlit.app/"},
+    {"name": "Ambiscions Case Study", "url": "https://kewlfunky2023-blank-app-ambiscions-case-study-teoy6m.streamlit.app/"},
+    {"name": "Project (blank-app)", "url": "https://blank-app-wx9ckhjjtpzen6zs4qqfum.streamlit.app/"},
+    {"name": "Recommender App", "url": "https://blank-app-kpkm6rp3yrcu8mpp7tk3yj.streamlit.app/"},
+    {"name": "Streamlit App (blank-app)", "url": "https://blank-app-dox4et0mct8.streamlit.app/"}
+  ],
+  "huggingface": [
+    {"id": "PneumoniaDetectionCV", "name": "Pneumonia Detection AI"},
+    {"id": "churn", "name": "ChurnGuard (HF)"},
+    {"id": "advance_backtesting_platform", "name": "Advanced Backtesting Platform"},
+    {"id": "AzureML_Pizza_Sales_Analysis", "name": "AzureML Pizza Sales Analysis"},
+    {"id": "Multimodal_Virtual_Assistant_with_RAG_Project", "name": "AUB Admissions Assistant (RAG)"},
+    {"id": "chest_X-ray", "name": "Chest X-ray"},
+    {"id": "FoodHub_Chatbot", "name": "FoodHub Chatbot"},
+    {"id": "sentiment-analysis-gradio", "name": "Sentiment Analysis"},
+    {"id": "AI_Projects", "name": "AI Projects (HF)"},
+    {"id": "IntelligentreportingonAzure", "name": "Intelligent Reporting on Azure"},
+    {"id": "Multimodal_Virtual_Assistant_with_RAG", "name": "Multimodal Virtual Assistant with RAG"},
+    {"id": "PythonforGenerativeAI", "name": "Python for Generative AI"},
+    {"id": "GreatLearning", "name": "GreatLearning LLM Projects"}
+  ]
+}
