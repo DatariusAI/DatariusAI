@@ -117,6 +117,11 @@ Apps you can open and use right now. Built while learning, and still the base of
 | [Pneumonia Detection](https://huggingface.co/spaces/DatariusAI/PneumoniaDetectionCV) | Deep learning on chest X-rays | Hugging Face |
 | [AUB Admissions Assistant](https://huggingface.co/spaces/DatariusAI/Multimodal_Virtual_Assistant_with_RAG_Project) | Multimodal RAG assistant for admissions questions | Hugging Face |
 | [Advanced Backtesting Platform](https://huggingface.co/spaces/DatariusAI/advance_backtesting_platform) | Backtest trading strategies | Hugging Face |
+| [Offline Admissions Assistant](https://huggingface.co/spaces/DatariusAI/Multimodal_Virtual_Assistant_with_RAG) | English/Arabic RAG with OCR and voice, open models only | Hugging Face |
+| [FoodHub Support Bot](https://huggingface.co/spaces/DatariusAI/FoodHub_Chatbot) | Order lookups from SQL plus an LLM for chat | Hugging Face |
+| [Sentiment Analysis](https://huggingface.co/spaces/DatariusAI/sentiment-analysis-gradio) | RoBERTa vs DistilBERT sentiment, batch scoring | Hugging Face |
+| [Pizza Sales Insights](https://huggingface.co/spaces/DatariusAI/AzureML_Pizza_Sales_Analysis) | 48k-order sales dashboard: trends, peak hours, best sellers | Hugging Face |
+| [Retail Data Insights](https://huggingface.co/spaces/DatariusAI/IntelligentreportingonAzure) | Retail KPIs and trends with filters (Azure ML data prep) | Hugging Face |
 
 All apps are checked every 6 hours and woken if they sleep. [Live status](https://github.com/DatariusAI/DatariusAI/blob/app-status/STATUS.md). More on [Hugging Face](https://huggingface.co/DatariusAI).
 
