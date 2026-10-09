@@ -1,0 +1,11 @@
+[
+ {
+  "kind": "huggingface",
+  "name": "Nutrition Disorder Agent",
+  "id": "GreatLearning",
+  "url": "https://datariusai-greatlearning.hf.space/",
+  "page": "https://huggingface.co/spaces/DatariusAI/GreatLearning",
+  "file": "hf-greatlearning.png",
+  "state": "ok"
+ }
+]
