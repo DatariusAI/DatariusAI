@@ -11,7 +11,7 @@
 
 I lead AI and digital transformation in banking, and I still build. I run AI, automation and data platform programs, and I build LLM, MLOps and agentic AI systems with Python, Azure and Google Cloud.
 
-| Focus | |
+| Area | What I am doing |
 |---|---|
 | **Now** | Leading AI, automation and data platforms in GCC banking |
 | **Building** | Agentic AI architecture and LLM systems (LangGraph, deep research agents) |
