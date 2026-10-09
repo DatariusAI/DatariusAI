@@ -14,7 +14,7 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else "spaces"
 TOKEN = os.environ["HF_TOKEN"]
 APPS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "apps.json"), encoding="utf-8"))
 PATTERNS = ["*.py", "*.txt", "*.md", "*.json", "*.yaml", "*.yml", "*.toml", "*.cfg", "Dockerfile", "*.sh",
-            "requirements*", "packages.txt", "runtime.txt", ".huggingface.yaml"]
+            "requirements*", "packages.txt", "runtime.txt", ".huggingface.yaml", "*.csv", "*.db", "*.faiss"]
 
 
 def logs(space, kind):
