@@ -69,10 +69,48 @@ def stack():
     save("tech-stack.svg", W, y - 10, body)
 
 
+# Where each Tech Stack badge leads: official docs, or my own hub for each cloud.
+HUB = "https://github.com/DatariusAI/"
+LINKS = {
+    "Python": "https://docs.python.org/3/", "PyTorch": "https://pytorch.org/docs/stable/",
+    "TensorFlow": "https://www.tensorflow.org/learn", "Keras": "https://keras.io/",
+    "scikit-learn": "https://scikit-learn.org/stable/", "Hugging Face": "https://huggingface.co/docs",
+    "OpenAI": "https://platform.openai.com/docs", "Anthropic Claude": "https://docs.claude.com/",
+    "LangChain": "https://github.com/langchain-ai/langchain", "Microsoft Azure": HUB + "Azure-AI-Hub",
+    "Google Cloud": HUB + "Google-Cloud-AI-Hub", "AWS": HUB + "AWS-AI-Hub", "Docker": "https://docs.docker.com/",
+    "GitHub Actions": "https://docs.github.com/actions", "MLflow": "https://mlflow.org/docs/latest/",
+    "FastAPI": "https://fastapi.tiangolo.com/", "Microsoft Fabric": "https://learn.microsoft.com/fabric/",
+    "SQL": "https://cloud.google.com/bigquery/docs/introduction-sql", "BigQuery": "https://cloud.google.com/bigquery/docs",
+    "JavaScript": "https://developer.mozilla.org/docs/Web/JavaScript", "React": "https://react.dev/",
+    "Node.js": "https://nodejs.org/docs/latest/api/",
+}
+
+
+def slug(s):
+    return "".join(c.lower() if c.isalnum() else "-" for c in s).strip("-").replace("--", "-")
+
+
+def stack_markdown():
+    """One clickable badge per tool, grouped by category."""
+    os.makedirs(os.path.join(OUT, "stack"), exist_ok=True)
+    md = []
+    for title, items in STACK:
+        md.append(f"<sub><b>{esc(title.upper())}</b></sub><br/>")
+        row = []
+        for label, dot in items:
+            f = f"stack/{slug(label)}.svg"
+            single(f, label, dot)
+            row.append(f'<a href="{LINKS[label]}" title="{esc(label)}"><img src="assets/{f}?v=1" alt="{esc(label)}" height="29"/></a>')
+        md.append("\n".join(row) + "<br/><br/>")
+    return "\n".join(md)
+
+
 os.makedirs(OUT, exist_ok=True)
 single("chip-linkedin.svg", "LinkedIn", "#0A66C2")
 single("chip-youtube.svg", "YouTube · @DatariusAI", "#FF0000")
 single("chip-discord-dsgn.svg", "Discord · Data Science Global Network", "#5865F2")
 single("chip-discord-cqf.svg", "Discord · CQF Quant Finance Hub", "#5865F2")
-stack()
+# stack()  # replaced by one clickable chip per tool (stack_markdown)
+snippet = stack_markdown()
+open(os.path.join(OUT, "stack", "README-snippet.md"), "w").write(snippet)
 print("chips written")
