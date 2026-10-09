@@ -77,7 +77,8 @@ def hf_check(space_id):
     if stage in ("SLEEPING", "PAUSED", "STOPPED"):
         api.restart_space(repo)
         woke = True
-    state = "error" if "ERROR" in stage else "ok"
+    healthy = {"RUNNING", "RUNNING_BUILDING", "BUILDING", "APP_STARTING", "RUNNING_APP_STARTING", "SLEEPING", "PAUSED", "STOPPED"}
+    state = "ok" if stage in healthy else "error"  # e.g. BUILD_ERROR, RUNTIME_ERROR, NO_APP_FILE, CONFIG_ERROR
     return {"state": state, "woke": woke, "snippet": stage}
 
 
