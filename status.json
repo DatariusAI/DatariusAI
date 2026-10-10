@@ -1,0 +1,258 @@
+{
+  "checked": "2026-10-10 12:35 UTC",
+  "apps": [
+    {
+      "kind": "streamlit",
+      "name": "Fraud Risk Scoring",
+      "url": "https://kibsfraudrisk.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Fork Fraud Risk Prediction App Upload transaction data (.csv) Upload CSV upload Upload 200MB per file \u2022 CSV"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Loan Acceptance Prediction",
+      "url": "https://kibsloanacceptance.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Fork \ud83c\udfe6 Loan Acceptance Predictor Estimates the probability that a loan application is approved, using a Logistic Regression model trained on historical applicat"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Customer Segmentation",
+      "url": "https://kibssegments.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Fork \ud83e\udde9 Customer Segmentation Assigns bank customers to one of four segments with a K-Means clustering model. Try one customer, or segment a whole file in the ba"
+    },
+    {
+      "kind": "streamlit",
+      "name": "ChurnGuard: Customer Churn",
+      "url": "https://churnguard2025.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Fork \ud83d\udcca Customer Churn Prediction Dashboard Predicts how likely a customer is to leave, using a Random Forest trained on telecom/DTH customer data, and turns the"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Melbourne House Prices",
+      "url": "https://deakinhousepricesmalbourne.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "\ud83e\uddee Property features Region Southern Metropolitan Other region Property type House Unit Rooms 3 1 10 Distance to CBD (km) Land size (m\u00b2) Fork \ud83c\udfe0 Melbourne Housing"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Equity Dashboard (BQL)",
+      "url": "https://bqntbql.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Settings First ticker Second ticker Start date 2023 / 01 / 01 End date 2024 / 01 / 01 ARIMA forecast horizon (trading days) 10 5 30 Fork \ud83d\udcc8 AAPL vs MSFT Dashboar"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Insurance Claims Assistant (Arabic)",
+      "url": "https://medicalchatbot2025.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "\ud83e\uddfe \u062a\u0642\u062f\u064a\u0645 \u0645\u0637\u0627\u0644\u0628\u0629 \u2753 \u0627\u0644\u0623\u0633\u0626\u0644\u0629 \u0627\u0644\u0645\u062a\u0643\u0631\u0631\u0629 \ud83c\udfe5 \u0625\u064a\u062c\u0627\u062f \u0645\u0633\u062a\u0634\u0641\u0649 \ud83d\udcc4 \u062d\u0627\u0644\u0629 \u0645\u0637\u0627\u0644\u0628\u0629 Fork \ud83e\uddfe \u0645\u0633\u0627\u0639\u062f \u0645\u0637\u0627\u0644\u0628\u0627\u062a \u0627\u0644\u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u0635\u062d\u064a \u0645\u0631\u062d\u0628\u064b\u0627 \ud83d\udc4b \u0627\u0633\u0623\u0644\u0646\u064a \u0639\u0646 \u062a\u0646\u0632\u064a\u0644 \u0627\u0644\u062a\u0637\u0628\u064a\u0642\u060c \u0625\u064a\u062c\u0627\u062f \u0645\u0633\u062a\u0634\u0641\u0649\u060c \u0637\u0631\u064a\u0642\u0629 \u062a\u0642\u062f\u064a\u0645 \u0645\u0637"
+    },
+    {
+      "kind": "streamlit",
+      "name": "AI Knowledge Repo",
+      "url": "https://medicalchatbotfinal2025.streamlit.app/",
+      "state": "waking",
+      "woke": false,
+      "snippet": "still starting after 3 minutes"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Arabic NLP Toolkit",
+      "url": "https://arabic-assitant.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "\ud83e\udd16 \u0627\u0644\u0645\u0633\u0627\u0639\u062f \u0627\u0644\u0639\u0631\u0628\u064a \u0627\u0644\u0630\u0643\u064a \u0645\u062c\u0645\u0648\u0639\u0629 \u0623\u062f\u0648\u0627\u062a \u0644\u0645\u0639\u0627\u0644\u062c\u0629 \u0627\u0644\u0646\u0635\u0648\u0635 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u062a\u0639\u0645\u0644 \u0645\u0628\u0627\u0634\u0631\u0629 \u0641\u064a \u0627\u0644\u0645\u062a\u0635\u0641\u062d\u060c \u0628\u062f\u0648\u0646 \u0645\u0641\u0627\u062a\u064a\u062d API \u0648\u0628\u062f\u0648\u0646 \u062a\u062d\u0645\u064a\u0644 \u0646\u0645\u0627\u0630\u062c. \u0627\u062e\u062a\u0631 \u0623\u062f\u0627\u0629 \u0648\u062c\u0631\u0651\u0628 \u0627\u0644\u0646\u0635 \u0627\u0644\u062c\u0627\u0647\u0632 \u0623\u0648 \u0627\u0643\u062a\u0628 \u0646\u0635\u0643. \ud83d\udcdd"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Arabic Assistant Chat",
+      "url": "https://arabic-assistant202.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "\ud83c\udf1f \u0645\u064a\u0632\u0627\u062a \u0627\u0644\u0645\u0633\u0627\u0639\u062f \u0648\u0636\u0639 \u0628\u062f\u0648\u0646 \u0625\u0646\u062a\u0631\u0646\u062a: \u0644\u0627 \u064a\u0648\u062c\u062f \u0645\u0641\u062a\u0627\u062d GROQ_API_KEY \u0623\u0648 OPENAI_API_KEY\u060c \u0644\u0630\u0644\u0643 \u0627\u0644\u062a\u0631\u062c\u0645\u0629 \u0628\u0627\u0644\u0642\u0627\u0645\u0648\u0633 \u0648\u0627\u0644\u0625\u062c\u0627\u0628\u0627\u062a \u0645\u0646 \u0642\u0627\u0639\u062f\u0629 \u0627\u0644\u0645\u0639\u0631\u0641\u0629 \u0641\u0642\u0637. \ud83d\udd24 \u062a\u0631\u062c\u0645 \u0646\u0635 \u2190 \u062a\u0631\u062c\u0645\u0629 \ud83d\udcdd \u0644\u062e\u0635 \u0646\u0635 "
+    },
+    {
+      "kind": "streamlit",
+      "name": "Dubai Space Travel",
+      "url": "https://dubaispacetravel.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Navigation Book a Trip My Dashboard About AI Travel Assistant \ud83d\ude80 Dubai to the Stars \u2013 Space Travel Booking Platform \ud83d\udef8 Schedule Your Space Trip Select Departure D"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Recommender: BPR vs LightGCN",
+      "url": "https://gcnnrecommender01.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Data Rec_sys_data.xlsx (optional) upload Upload 200MB per file \u2022 XLSX Without a file, a synthetic shop with taste segments is used. Model Embedding size 16 8 64"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Nutrition Disorder Agent",
+      "url": "https://nutritiondisorderagent.streamlit.app/",
+      "state": "error",
+      "woke": false,
+      "snippet": "Oh no. Error running app. If this keeps happening, please contact support."
+    },
+    {
+      "kind": "streamlit",
+      "name": "Ambiscions Case Study",
+      "url": "https://kewlfunky2023-blank-app-ambiscions-case-study-teoy6m.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Stop qrcode or PIL is not installed. QR code features will not work. Error: No module named 'qrcode'"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Resume Keyword Analyzer",
+      "url": "https://blank-app-wx9ckhjjtpzen6zs4qqfum.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Settings Skill groups to check Programming Machine learning Data and cloud Soft skills Extra skills (comma separated) Show extracted text \ud83d\udcc4 Data Science Resume "
+    },
+    {
+      "kind": "streamlit",
+      "name": "Recommender App",
+      "url": "https://blank-app-kpkm6rp3yrcu8mpp7tk3yj.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "Rate Movies Rate the movies you've watched. Leave the slider at 0.0 if you haven't watched a movie. Inception (Sci-Fi) 0.0 0.0 5.0 Titanic (Romance) 0.0 0.0 5.0"
+    },
+    {
+      "kind": "streamlit",
+      "name": "Portfolio Index",
+      "url": "https://blank-app-dox4et0mct8.streamlit.app/",
+      "state": "ok",
+      "woke": false,
+      "snippet": "\u2728 DatariusAI \u00b7 AI Projects Live demos of machine learning, NLP and LLM apps built with Python and Streamlit. Every app runs in the browser. Most work without an"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Pneumonia Detection AI",
+      "url": "https://datariusai-pneumoniadetectioncv.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/PneumoniaDetectionCV",
+      "state": "ok",
+      "woke": false,
+      "snippet": "RUNNING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "ChurnGuard (HF)",
+      "url": "https://datariusai-churn.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/churn",
+      "state": "ok",
+      "woke": false,
+      "snippet": "RUNNING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Advanced Backtesting Platform",
+      "url": "https://datariusai-advance-backtesting-platform.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/advance_backtesting_platform",
+      "state": "ok",
+      "woke": false,
+      "snippet": "RUNNING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Pizza Sales Insights",
+      "url": "https://datariusai-azureml-pizza-sales-analysis.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/AzureML_Pizza_Sales_Analysis",
+      "state": "ok",
+      "woke": false,
+      "snippet": "RUNNING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "AUB Admissions Assistant",
+      "url": "https://datariusai-multimodal-virtual-assistant-with-rag-project.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/Multimodal_Virtual_Assistant_with_RAG_Project",
+      "state": "ok",
+      "woke": false,
+      "snippet": "RUNNING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Chest X-ray",
+      "url": "https://datariusai-chest-x-ray.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/chest_X-ray",
+      "state": "ok",
+      "woke": false,
+      "snippet": "RUNNING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "FoodHub Chatbot",
+      "url": "https://datariusai-foodhub-chatbot.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/FoodHub_Chatbot",
+      "state": "ok",
+      "woke": true,
+      "snippet": "SLEEPING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Sentiment Analysis",
+      "url": "https://datariusai-sentiment-analysis-gradio.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/sentiment-analysis-gradio",
+      "state": "ok",
+      "woke": true,
+      "snippet": "SLEEPING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Insurance Charge Predictor",
+      "url": "https://datariusai-ai-projects.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/AI_Projects",
+      "state": "ok",
+      "woke": false,
+      "snippet": "RUNNING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Retail Data Insights",
+      "url": "https://datariusai-intelligentreportingonazure.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/IntelligentreportingonAzure",
+      "state": "ok",
+      "woke": false,
+      "snippet": "RUNNING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Offline Admissions Assistant",
+      "url": "https://datariusai-multimodal-virtual-assistant-with-rag.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/Multimodal_Virtual_Assistant_with_RAG",
+      "state": "ok",
+      "woke": true,
+      "snippet": "SLEEPING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Financial 10-K Q&A (RAG)",
+      "url": "https://datariusai-pythonforgenerativeai.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/PythonforGenerativeAI",
+      "state": "ok",
+      "woke": true,
+      "snippet": "SLEEPING"
+    },
+    {
+      "kind": "huggingface",
+      "name": "Nutrition Disorder Agent",
+      "url": "https://datariusai-greatlearning.hf.space/",
+      "page": "https://huggingface.co/spaces/DatariusAI/GreatLearning",
+      "state": "ok",
+      "woke": false,
+      "snippet": "RUNNING"
+    }
+  ]
+}
