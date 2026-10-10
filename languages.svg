@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="425" height="200" viewBox="0 0 425 200" role="img" aria-label="Most used languages">
+<style>
+.t{font:600 18px 'Segoe UI',Ubuntu,sans-serif;fill:#e6edf3}
+.l{font:400 14px 'Segoe UI',Ubuntu,sans-serif;fill:#c9d1d9}
+.v{font:700 14px 'Segoe UI',Ubuntu,sans-serif;fill:#58a6ff}
+.s{font:400 11px 'Segoe UI',Ubuntu,sans-serif;fill:#8b949e}
+</style>
+<rect x="0.5" y="0.5" width="424" height="199" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="24" y="36" class="t">Most used languages</text>
+<clipPath id="c"><rect x="24" y="56" width="377" height="10" rx="5"/></clipPath><g clip-path="url(#c)"><rect x="24.0" y="56" width="185.0" height="10" fill="#DA5B0B"/><rect x="209.0" y="56" width="178.8" height="10" fill="#3572A5"/><rect x="387.8" y="56" width="11.2" height="10" fill="#3178c6"/><rect x="399.0" y="56" width="2.0" height="10" fill="#384d54"/></g><g class="row" style="animation-delay:0ms"><circle cx="30" cy="91" r="5" fill="#DA5B0B"/><text x="42" y="96" class="l">Jupyter Notebook <tspan class="s">49.1%</tspan></text></g><g class="row" style="animation-delay:120ms"><circle cx="220" cy="91" r="5" fill="#3572A5"/><text x="232" y="96" class="l">Python <tspan class="s">47.4%</tspan></text></g><g class="row" style="animation-delay:240ms"><circle cx="30" cy="117" r="5" fill="#3178c6"/><text x="42" y="122" class="l">TypeScript <tspan class="s">3.0%</tspan></text></g><g class="row" style="animation-delay:360ms"><circle cx="220" cy="117" r="5" fill="#384d54"/><text x="232" y="122" class="l">Dockerfile <tspan class="s">0.5%</tspan></text></g>
+</svg>

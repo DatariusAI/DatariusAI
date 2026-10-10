@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="425" height="200" viewBox="0 0 425 200" role="img" aria-label="GitHub stats">
+<style>
+.t{font:600 18px 'Segoe UI',Ubuntu,sans-serif;fill:#e6edf3}
+.l{font:400 14px 'Segoe UI',Ubuntu,sans-serif;fill:#c9d1d9}
+.v{font:700 14px 'Segoe UI',Ubuntu,sans-serif;fill:#58a6ff}
+.s{font:400 11px 'Segoe UI',Ubuntu,sans-serif;fill:#8b949e}
+</style>
+<rect x="0.5" y="0.5" width="424" height="199" rx="8" fill="#161b22" stroke="#30363d"/>
+<text x="24" y="36" class="t">GitHub stats</text>
+<g class="row" style="animation-delay:0ms"><circle cx="30" cy="65" r="4" fill="#58a6ff"/><text x="44" y="70" class="l">Public repositories</text><text x="400" y="70" class="v" text-anchor="end">46</text></g><g class="row" style="animation-delay:120ms"><circle cx="30" cy="91" r="4" fill="#58a6ff"/><text x="44" y="96" class="l">Public contributions (last 12 months)</text><text x="400" y="96" class="v" text-anchor="end">531</text></g><g class="row" style="animation-delay:240ms"><circle cx="30" cy="117" r="4" fill="#58a6ff"/><text x="44" y="122" class="l">Daily-refreshed AI hubs</text><text x="400" y="122" class="v" text-anchor="end">18</text></g><g class="row" style="animation-delay:360ms"><circle cx="30" cy="143" r="4" fill="#58a6ff"/><text x="44" y="148" class="l">Languages used</text><text x="400" y="148" class="v" text-anchor="end">5</text></g><text x="24" y="178" class="s">Updated 10 Oct 2026</text>
+</svg>
