@@ -27,7 +27,7 @@ jobs:
       - run: python scripts/screenshots.py shots
         env:
           ONLY: ${{ inputs.only }}
-      - uses: crazy-max/ghaction-github-pages@v4
+      - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: app-shots
           build_dir: shots

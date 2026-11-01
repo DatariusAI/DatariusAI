@@ -28,7 +28,7 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python scripts/keep_awake.py status
       - name: Publish status
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: app-status
           build_dir: status

@@ -45,7 +45,7 @@ jobs:
           mkdir bundle && mv spaces.tgz.enc key.bin.enc bundle/
           rm -rf spaces spaces.tgz key.bin
       - name: Publish encrypted bundle
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: hf-bundle
           build_dir: bundle
