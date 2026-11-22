@@ -17,8 +17,8 @@ jobs:
     steps:
       - name: Mask key
         run: echo "::add-mask::${{ inputs.key }}"
-      - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
         with:
           ref: hf-fixes
           path: fixes
